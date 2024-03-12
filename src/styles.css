@@ -22,6 +22,12 @@ header a {
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+header a:hover {
+  color: #272044;
+  background-color: #d0c8cd;
 }
 
 h1 {
@@ -144,6 +150,10 @@ footer a:hover {
   margin: 60px auto;
 }
 
+.book-card img {
+  max-width: 400px;
+}
+
 .card-text {
   margin: 10px 25px;
 }
@@ -200,4 +210,58 @@ footer a:hover {
 
 .column {
   max-width: 440px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 100px 0;
+  }
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .grid-1 {
+    padding: 25px;
+  }
+
+  .grid-3,
+  .grid-4 {
+    margin: 10px 0;
+  }
+
+  .grid-4 {
+    padding: 10px 25px;
+  }
+
+  .book-card {
+    max-width: 95%;
+    margin: 10px auto;
+  }
+
+  .book-card img {
+    max-width: 100%;
+  }
+
+  section.image-gallery {
+    padding: 20px;
+  }
+
+  section.book-recommendations {
+    padding: 20px;
+  }
 }
