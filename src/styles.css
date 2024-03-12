@@ -1,0 +1,81 @@
+body {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 22, 57, 0.4), rgba(0, 22, 57, 0.4)),
+    url("../images/nlyhkbk5vdu11.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #272044;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 80px;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  color: #fdfbfa;
+}
+
+h2 {
+  color: #272044;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 60px;
+  color: #fdfbfa;
+}
+
+h4 {
+  color: #27204450;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+p {
+  color: #27204470;
+  font-weight: 400;
+  text-justify: distribute;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.intro-grid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.intro-text {
+  max-width: 500px;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+  max-width: 900px;
+}
