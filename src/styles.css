@@ -224,10 +224,15 @@ footer a:hover {
 
   h2 {
     font-size: 28px;
+    margin-top: 5px;
   }
 
   h3 {
     font-size: 16px;
+  }
+
+  h4 {
+    margin-bottom: 0;
   }
 
   .grid-1,
