@@ -198,10 +198,6 @@ footer a:hover {
   grid-gap: 40px;
 }
 
-.gallery-img {
-  width: 100%;
-}
-
 .grid-4 {
   margin: 60px 50px;
   justify-content: center;
